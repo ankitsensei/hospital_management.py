@@ -9,7 +9,7 @@ while(True):
     import mysql.connector
     passwd=str(input("ENTER THE DATABASE PASSWORD;"))
 
-    mysql=mysql.connector.connect(host="localhost",user="root",passwd="admin", database = "hospital")
+    mysql=mysql.connector.connect(host="localhost",user="root",passwd="@Ankit2023", database = "hospital")
     mycursor=mysql.cursor()
     #creating database
     mycursor.execute("create database if not exists my_hospitals")
